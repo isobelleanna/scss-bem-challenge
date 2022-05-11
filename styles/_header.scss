@@ -1,0 +1,11 @@
+@use "variables" as *;
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__h1 {
+        font-family: $primary-font;
+        padding: $primary-padding;
+    }
+}
