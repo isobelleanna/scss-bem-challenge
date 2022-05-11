@@ -1,5 +1,32 @@
-.card {
-  height: 50%;
-  width: 75%;
-  border: 1px solid black;
+.cards {
+  height: 80%;
+  width: 400px;
+  border: 2px solid rgb(234, 12, 123);
+  border-radius: 10px;
+}
+.cards img {
+  width: 400px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container h1 {
+  font-family: Arial;
+  padding: 10px;
+}
+.container p {
+  font-family: Arial;
+  padding: 10px;
+}
+.container .dark-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.container .light-button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.container .button-bar {
+  padding: 10px;
 }/*# sourceMappingURL=styles.css.map */
