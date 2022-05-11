@@ -4,29 +4,28 @@
   border: 2px solid rgb(234, 12, 123);
   border-radius: 10px;
 }
-.cards img {
+.cards .cards_img {
   width: 400px;
   border-radius: 10px 10px 0px 0px;
 }
 
-.container h1 {
+.container_h1 {
   font-family: Arial;
   padding: 10px;
 }
-.container p {
+.container_p {
   font-family: Arial;
-  padding: 10px;
-}
-.container .dark-button {
-  background-color: black;
-  color: white;
-  padding: 10px;
-}
-.container .light-button {
-  background-color: white;
-  color: black;
   padding: 10px;
 }
 .container .button-bar {
   padding: 10px;
+}
+.container .button-bar_button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.container .button-bar_button--light {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=styles.css.map */

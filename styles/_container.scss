@@ -1,20 +1,20 @@
 @use "variables" as *;
 .container {
-    h1 {
+    &_h1 {
     font-family: $primary-font;
     padding: 10px;
-}p {
+}&_p {
     font-family: $primary-font;
-    padding: 10px;
-}.dark-button {
-    background-color: black;
-    color: white;
-    padding: 10px;
-}.light-button {
-    background-color: white;
-    color: black;
     padding: 10px;
 }.button-bar {
     padding: 10px;
+    &_button {
+    background-color: $dark;
+    color: $light;
+    padding: 10px;
+    }&_button--light {
+    background-color: $light;
+    color: $dark;
+}
 }
 }
