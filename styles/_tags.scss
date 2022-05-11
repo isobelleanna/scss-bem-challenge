@@ -1,0 +1,11 @@
+@use "variables" as *;
+.tags {
+    &__button {
+        background-color: $primary-colour;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+    }&__button--active {
+        background-color: $active-colour;
+    }
+}

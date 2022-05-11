@@ -47,4 +47,14 @@ body {
 .header__h1 {
   font-family: Arial;
   padding: 15px;
+}
+
+.tags__button {
+  background-color: grey;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.tags__button--active {
+  background-color: lime;
 }/*# sourceMappingURL=styles.css.map */
